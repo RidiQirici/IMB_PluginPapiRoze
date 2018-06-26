@@ -81,8 +81,8 @@
             <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
             <uses-feature android:name="android.hardware.wifi" android:required="false" />
         </config-file>
-        <resource-file src="src/android/libs/BixolonPrinter.jar" target-dir="libs" framework="true"/>
-        <resource-file src="src/android/res/xml/device_filter.xml" target-dir="res/xml"/>
+        <lib-file src="src/android/libs/BixolonPrinter.jar"/>
+        <resource-file src="src/android/res/xml/device_filter.xml" target="res/xml"/>
     </platform>
 
 </plugin>

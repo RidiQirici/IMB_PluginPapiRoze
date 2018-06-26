@@ -1,6 +1,6 @@
 {
   "name": "imb_pluginpapiroze",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Papi roze printon ne bixoloff",
   "main": "www/bixolonprint.js",
   "scripts": {
